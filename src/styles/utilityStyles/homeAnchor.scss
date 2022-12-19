@@ -1,0 +1,18 @@
+@import "../variables.scss";
+
+.homeAnchor {
+    border: 1px solid $pink;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    width: 80%;
+    padding: 30px 0;
+    transition: 0.5s;
+    text-align: center;
+
+    &:hover {
+        background-color: $pink;
+        border-color: #323232;
+        color: #FFF;
+    }
+}

@@ -1,0 +1,56 @@
+@import "../variables.scss";
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.profileIcon {
+    width: 35%;
+    
+    &:hover {
+        animation: scale infinite 0.3s;
+    }
+}
+
+.homeAnchors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    width: 30%; 
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .homeAnchors {
+        width: 90%;
+    }
+
+    .profileIcon {
+        border: 1px solid $pink;
+        border-radius: 50%;
+        width: 50%;
+        margin: 10px;
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}

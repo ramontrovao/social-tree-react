@@ -1,0 +1,19 @@
+@import "../variables.scss";
+
+.notFoundMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    height: 100vh;
+}
+
+.notFoundTitle {
+    color: $pink;
+    margin-bottom: 3%;
+}
+
+.notFoundLink {
+    color: $pink;
+}
