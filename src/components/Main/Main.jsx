@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import "../../styles/mainStyles/main.scss";
 import Anchor from "../utility/Anchors.jsx";
+import profileicon from "../../assets/profileicon.png";
 
 const Main = () => {
   return (
     <main className="main">
       <img
-        src="../../../public/assets/profileicon.png"
+        src={profileicon}
         alt="Arte feita por Sara Rodrigues"
         className="profileIcon"
       />
