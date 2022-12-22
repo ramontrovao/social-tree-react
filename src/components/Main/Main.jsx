@@ -12,7 +12,7 @@ const Main = () => {
   return (
     <main className="main">
       <img
-        src="../../../public/assets/profileicon.png"
+        src="../../../assets/profileicon.png"
         alt="Arte feita por Sara Rodrigues"
         className="profileIcon"
       />
