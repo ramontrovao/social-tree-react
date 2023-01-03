@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "../../styles/mainStyles/main.scss";
 import Anchor from "../utility/Anchors.jsx";
 import {
+  BsLinkedin,
   BsGithub,
   BsTwitter,
   BsInstagram,
@@ -19,18 +20,18 @@ const Main = () => {
 
       <section className="homeAnchors">
         <Anchor
-          link="https://github.com/ramontrovao"
+          link="https://www.linkedin.com/in/ramon-pinheiro-230439260/"
           content={
             <>
-              <BsGithub /> _-_ Github
+              <BsLinkedin /> _-_ LinkedIn
             </>
           }
         />
         <Anchor
-          link="https://twitter.com/hiroowsz"
+          link="https://github.com/ramontrovao"
           content={
             <>
-              <BsTwitter /> _-_ Twitter
+              <BsGithub /> _-_ Github
             </>
           }
         />
