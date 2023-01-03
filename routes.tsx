@@ -1,9 +1,10 @@
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./src/routes/HomeScreen.jsx";
-import AboutMe from "./src/routes/AboutMeScreen.jsx";
-import NotFound from "./src/routes/404NotFound.jsx";
+import { Home } from "./src/routes/HomeScreen";
+import { AboutMe } from "./src/routes/AboutMeScreen";
+import { NotFound } from "./src/routes/404NotFound";
 
-const AllRoutes = () => {
+export const AllRoutes = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -14,5 +15,3 @@ const AllRoutes = () => {
     </BrowserRouter>
   );
 };
-
-export default AllRoutes;

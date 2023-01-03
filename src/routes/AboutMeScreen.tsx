@@ -1,8 +1,9 @@
+import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer/Footer.jsx";
+import { Footer } from "../components/Footer/Footer";
 import "../styles/aboutMeStyles/aboutMe.scss";
 
-const AboutMe = () => {
+export const AboutMe = () => {
   return (
     <>
       <main className="aboutMeMain">
@@ -42,5 +43,3 @@ const AboutMe = () => {
     </>
   );
 };
-
-export default AboutMe;

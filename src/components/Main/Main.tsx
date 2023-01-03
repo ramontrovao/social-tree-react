@@ -1,19 +1,19 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/mainStyles/main.scss";
-import Anchor from "../utility/Anchors.jsx";
+import { Anchor } from "../utility/Anchors";
 import {
   BsLinkedin,
   BsGithub,
-  BsTwitter,
   BsInstagram,
   BsFillPersonFill,
 } from "react-icons/bs";
 
-const Main = () => {
+export const Main = () => {
   return (
     <main className="main">
       <img
-        src="../../../assets/profileicon.png"
+        src="./assets/profileicon.png"
         alt="Arte feita por Sara Rodrigues"
         className="profileIcon"
       />
@@ -54,5 +54,3 @@ const Main = () => {
     </main>
   );
 };
-
-export default Main;

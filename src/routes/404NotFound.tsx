@@ -1,7 +1,8 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/notFoundStyles/notFound.scss";
 
-const NotFound = () => {
+export const NotFound = () => {
   return (
     <main className="notFoundMain">
       <h1 className="notFoundTitle">404 Not Found</h1>
@@ -15,5 +16,3 @@ const NotFound = () => {
     </main>
   );
 };
-
-export default NotFound;
